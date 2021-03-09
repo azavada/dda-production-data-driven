@@ -2,7 +2,7 @@
 dbtVersion: 0.18.1
 jobs:
 - name: Every 5 minutes
-  schedule: */5 * * * *
+  schedule: "*/5 * * * *"
   steps:
   - name: run dependencies
     command: dbt deps
