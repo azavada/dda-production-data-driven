@@ -8,11 +8,3 @@ jobs:
     command: dbt deps
   - name: run asana
     command: dbt run --models asana_source asana --exclude asana_daily_metrics
-    
-- name: Every 5 minutes
-  schedule: */5 * * * *
-  steps:
-  - name: run dependencies
-    command: dbt deps
-  - name: run hakuna_matata
-    command: dbt run --models hakuna_matata
