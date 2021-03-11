@@ -2,5 +2,5 @@
 packages:
 - package: fivetran/asana
   version: 0.2.0
-- git: https://saloman:JhholfOSI5E3947NIgcU@bitbucket.org/saloman/dbt_test.git
+- git: git@bitbucket.org:saloman/dbt_test.git
   revision: 0.0.1
